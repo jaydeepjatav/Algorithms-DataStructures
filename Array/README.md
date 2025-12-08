@@ -1,1 +1,40 @@
 # Array
+An array is a fundamental data structure that stores a collection of similar data items (elements) of the same type in contiguous (next to each other) memory locations, allowing efficient access and manipulation using an index, which typically starts at 0.<br>
+### Key Characteristics
+* Fixed Size: Size is defined at creation (in static arrays)
+* Contiguous Memory: Elements stored in adjacent memory locations
+* Index-Based Access: O(1) time to access any element
+* Homogeneous: All elements are of the same data type
+* Zero-Indexed: First element is at index 0 (in most languages)
+
+### Types of Arrays
+
+1. One-Dimensional Arrays: Linear sequence of elements
+2. Multi-Dimensional Arrays: Arrays of arrays (2D, 3D, etc.)
+3. Dynamic Arrays: Resizable arrays (ArrayList, Vector, etc.)
+
+### ⚙️ Array Operations
+| Operation| Description| Time Complexity|
+|-----------|------------|----------------|
+|AccessGet | element at index |O(1) |
+|SearchFind | element in array | O(n)|
+|InsertAdd | element at position| O(n)|
+|DeleteRemove| element|O(n)|
+UpdateModify| element at index|O(1)|
+|TraverseVisit| all elements|O(n)|
+
+## ⏱️ Time & Space Complexity
+Understanding complexity is crucial for optimization:<br>
+```text 
+Best Case    → Ω (Omega)
+Average Case → Θ (Theta)
+Worst Case   → O (Big-O)
+```
+
+### Common Complexities
+**O(1)**: Constant - Access by index<br>
+**O(log n)**: Logarithmic - Binary search<br>
+**O(n)**: Linear - Linear search, traversal<br>
+**O(n log n)**: Log-linear - Merge sort, quick sort<br>
+**O(n²)**: Quadratic - Bubble sort, nested loops<br>
+**O(2ⁿ)**: Exponential - Recursive subset generation<br>
