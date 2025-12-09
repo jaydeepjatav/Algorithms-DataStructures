@@ -10,17 +10,17 @@
 ## Types of Linked Lists
 #### 1. Singly Linked List
 Each node contains data and a pointer to the next node.
-```text
+```java
 [Data|Next] -> [Data|Next] -> [Data|Next] -> NULL
 ```
 #### 2. Doubly Linked List
 Each node contains data, a pointer to the next node, and a pointer to the previous node.
-```text
+```java
 NULL <- [Prev|Data|Next] <-> [Prev|Data|Next] <-> [Prev|Data|Next] -> NULL
 ```
 #### 3. Circular Linked List
 The last node points back to the first node, forming a circle.
-```text
+```java
 [Data|Next] -> [Data|Next] -> [Data|Next] -> (back to first node)
 ```
 
