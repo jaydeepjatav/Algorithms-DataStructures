@@ -7,6 +7,44 @@ An array is a fundamental data structure that stores a collection of similar dat
 * Homogeneous: All elements are of the same data type
 * Zero-Indexed: First element is at index 0 (in most languages)
 
+  ## 📁 Repository Structure
+
+  ```text
+  array-dsa/
+      ├── 01-basics/
+      │   ├── array-declaration.cpp
+      │   ├── array-traversal.cpp
+      │   └── README.md
+      ├── 02-searching/
+      │   ├── linear-search.cpp
+      │   ├── binary-search.cpp
+      │   └── README.md
+      ├── 03-sorting/
+      │   ├── bubble-sort.cpp
+      │   ├── merge-sort.cpp
+      │   ├── quick-sort.cpp
+      │   └── README.md
+      ├── 04-manipulation/
+      │   ├── array-rotation.cpp
+      │   ├── array-reversal.cpp
+      │   └── README.md
+      ├── 05-patterns/
+      │   ├── two-pointers.cpp
+      │   ├── sliding-window.cpp
+      │   ├── prefix-sum.cpp
+      │   └── README.md
+      ├── 06-problems/
+      │   ├── easy/
+      │   ├── medium/
+      │   ├── hard/
+      │   └── README.md
+      ├── 07-2d-arrays/
+      │   ├── matrix-operations.cpp
+      │   ├── spiral-matrix.cpp
+      │   └── README.md
+      └── README.md
+  ```
+
 ### Types of Arrays
 
 1. One-Dimensional Arrays: Linear sequence of elements
