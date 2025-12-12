@@ -15,6 +15,9 @@ A Stack is a linear data structure that follows the Last-In-First-Out (LIFO) pri
 * **peek()**: View the top element without removing it
 * **isEmpty()**: Check if the stack is empty
 * **size()**: Get the number of elements in the stack
+<p align="center">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/stack.png" width="500"/>
+</p>
 
 ### Common Use Cases
 
