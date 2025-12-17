@@ -20,9 +20,12 @@ An array is a fundamental data structure that stores a collection of similar dat
       │   ├── binary-search.cpp
       │   └── README.md
       ├── 03-sorting/
-      │   ├── bubble-sort.cpp
-      │   ├── merge-sort.cpp
-      │   ├── quick-sort.cpp
+      │   ├── bubble-sort.java
+      |   ├── Selection-sort.java
+      |   ├── Insertion-sort.java 
+      │   ├── merge-sort.java
+      │   ├── quick-sort.java
+      |   ├── Heap-sort.java
       │   └── README.md
       ├── 04-manipulation/
       │   ├── array-rotation.cpp
